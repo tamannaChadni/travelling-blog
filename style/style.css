@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.hero h1{
+    font-style: italic;
+    color: rgb(0, 68, 255);
+    text-align: center;
+    font-size: 50px;
+    font-weight: 20px;
+    padding-top: 250px;
+}
+.hero{
+    background-image: url('../img/coverphoto.jpg');
+    background-position: bottom center;
+    height: 100vh;
+    background-size: cover;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+.article{
+    width: 80%;
+    margin: 60px auto;
+    background-color: bisque;
+    padding: 60px;
+    border-radius: 5%;
+
+}
+.article h2{
+    width: max-content;
+    /* text-align: justify; */
+    font-size: 30px;
+    border-bottom: 2px;
+    border-color: rgb(248, 191, 116);
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    padding-right: auto;   
+   
+}
+.article p{
+    font-size: 18px;
+}
+button{
+    background-image: linear-gradient(to right, #f3a0aa 0%, #bfe9ff  51%, #fc9da8  100%);
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.buy{
+    width: 80%;
+    margin: 60px auto;
+    padding: 60px;
+   
+
+}
+.buy h2{
+    /* text-align: center; */
+    font-size: 30px;
+    border-top: 0;
+    border-left: 0; 
+    border-right: 0; 
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    padding-right: auto;   
+    font-weight: bold; 
+   
+}
+.buy li{
+    color: rgb(241, 81, 81);
+    width: bold;
+    flex-direction: row;
+}
+#place h2{
+    text-align: center;
+    font-size: 30px;
+    border-top: 0;
+    border-left: 0; 
+    border-right: 0; 
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    padding-right: auto;   
+    font-weight: bold;   
+    color: #fc9da8;
+   
+ }
+.img{
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+  
+    
+  
+}
+
+.img img{
+    max-width: 400px;
+    width: 50%;
+    margin-left: auto;
+  margin-right: auto;
+}
+
